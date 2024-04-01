@@ -217,6 +217,10 @@ const Copd = () => {
     navigate("/");
   };
 
+  const handleHome = () => {
+    navigate("/");
+  };
+
   return (
     <section className="pb-10 bg-yellow-100">
       <nav className="flex items-center justify-between p-4 text-white bg-gray-900">
@@ -228,7 +232,7 @@ const Copd = () => {
         <div className="flex items-center">
           <button
             className="px-4 py-2 mr-2 bg-blue-500 rounded hover:bg-blue-700"
-            // onClick={handleHome}
+            onClick={handleHome}
           >
             Home
           </button>
